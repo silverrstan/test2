@@ -1,0 +1,31 @@
+@media screen and (max-width: 1600px) {
+    .header__container,
+    .hero .container {
+        width: 1110px;
+    }
+
+}
+@media screen and (max-width: 576px) {
+    .hero {
+        background-position-y: -20vh;
+    }
+    .hero__container,
+    .header__container{
+        padding: 0 20px;
+    }
+    .hero .container {
+        width: auto;
+        right: 20px;
+    }
+    .hero__title {
+        font-size: 60px;
+        line-height: 1.5;
+    }
+    .hero__subtitle {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .hero__description {
+        font-size: 12px;
+    }
+}
